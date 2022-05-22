@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9dfa895fe8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="wrapper">
+    <div class="task-input">
+        <img src="./images/bars-icon.svg" alt="icon">
+        <input type="text" placeholder="Add a new task">
+    </div>
+    <div class="controls">
+        <div class="filtres">
+            <span id="all">All</span>
+            <span id="pending">Pending</span>
+            <span id="completed">Completed</span>
+        </div>
+        <button class="clear-btn">Clear all</button>
+    </div>
+    <ul class="tadk-box">
+        <li class="task">
+            <label for="1">
+                <input type="checkbox"  id="1">
+                <p>learn about API</p>
+            </label>
+            <div class="settings">
+                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+            </div>
+        </li>
+        <li class="task">
+            <label for="1">
+                <input type="checkbox"  id="1">
+                <p>Parctice Js DOM</p>
+            </label>
+            <div class="settings">
+                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+            </div>
+        </li>
+        <li class="task">
+            <label for="1">
+                <input type="checkbox"  id="1">
+                <p>cleaning my room</p>
+            </label>
+            <div class="settings">
+                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+            </div>
+        </li>
+    </ul>
+    
+</div>
+
+
+
+
+<script src="./app.js"></script>
+</body>
+</html>
